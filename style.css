@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    background-color: #0b090a;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#infoarea {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #1a1a1d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#pokemonImage {
+    width: 200px;
+    height: 200px;
+}
+
+#stats {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+}
+
+p {
+    font-weight: 600;
+}
+
+span {
+    font-size: 0.5em;
+}
+
+#health-number, #stat-number {
+    background-color: #0b090a;
+    padding: 5px;
+    border-radius: 30%/50%;
+}
+
+#health-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 300px;
+}
